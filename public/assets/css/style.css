@@ -5351,18 +5351,18 @@ a.wp-block-button__link {
 	/* ////// */
 	.menu-full-overlay .v-line-block {
 		display: block;
-		left: 220px;
+		left: 200px;
 		top: -100px;
 		bottom: -80px;
 	}
 
 	.menu-social-links {
-		margin-left: 230px;
+		margin-left: 210px;
 		margin-top: 50px;
 	}
 
 	.menu-full {
-		padding: 0 0 0 260px;
+		padding: 0 0 0 230px;
 	}
 
 	.elementor-default .menu-full-overlay .v-line-block {
