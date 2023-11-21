@@ -35,7 +35,7 @@ const Index = () => {
                     // data-splitting="chars"
                     data-animate="active"
                   >
-                    <span> <b>مسهور</b>  لتصوير الافراح والمناسبات </span>
+                    <span> <b>مسهور</b><br/>  لتصوير الافراح والمناسبات </span>
                   </h1>
                 </div>
                 <div className="description">
@@ -104,19 +104,19 @@ const Index = () => {
                 <div className="info-list">
                   <ul>
                     <li>
+                      <span className="num">
+                        4<strong>+</strong> 
+                      </span>
                       <span className="value" >
                         سنين <strong>الخبرة</strong>
                       </span>
-                      <span className="num">
-                        <strong>+</strong>4
-                      </span>
                     </li>
                     <li>
+                      <span className="num">
+                      330<strong>+</strong>
+                      </span>
                       <span className="value">
                         عمل <strong>انجز</strong>
-                      </span>
-                      <span className="num">
-                        <strong>+</strong>330
                       </span>
                     </li>
                   </ul>
@@ -277,6 +277,13 @@ const Index = () => {
               </SwiperSlide>
               <div className="swiper-pagination" />
             </Swiper>
+
+            <div
+                    className="bg-img"
+                    style={{
+                      backgroundImage: "url(assets/images/pat-2.png)",
+                    }}
+                  />
             {/* <div className="lui-bgtitle">
               <span> اعمالنا </span>
             </div> */}

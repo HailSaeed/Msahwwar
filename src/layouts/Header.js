@@ -22,6 +22,7 @@ const Header = () => {
         <div className="header__builder">
           <div className="row">
             <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+         
               {/* logo */}
               <div className="logo">
                 <Link href="/" legacyBehavior>
@@ -84,7 +85,9 @@ const Header = () => {
                 <span />
                 <span />
               </a>
+    
               {/* Menu Full Overlay */}
+              
               <div className="menu-full-overlay">
                 <div className="menu-full-container">
                   <div className="container">
@@ -103,6 +106,7 @@ const Header = () => {
                                 </a>
                               </Link>
                             </li> */}
+                            
 
                             <li className="menu-item">
                               <a
@@ -114,6 +118,7 @@ const Header = () => {
                                 الرئيسية
                               </a>
                             </li>
+
                             <li className="menu-item">
                               <a
                                 className="splitting-text-anim-2"
